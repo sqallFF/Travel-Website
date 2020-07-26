@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video.css">
+    <title>Tortuga Travel</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#home" class="logo">Tortuga</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section class="showcase" id="home">
+        <div class="video-container">
+            <video src="production ID_4069480.mp4" autoplay muted loop></video>
+        </div>
+        <div class="content">
+            <h1>Tortuga</h1>
+            <h3>Relax Enjoy<br>Refresh</h3>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="imgBox">
+            <img src="photo-of-a-man-standing-on-a-boat-2762909.jpg" alt="" style="width: 202px;height: 221px;">
+        </div>
+        <div class=text-box>
+            <h2>Welcome to Tortuga</h2>
+            <h4>A Timeless, breatking scene filled with life and places to explore</h4>
+            <a href="#explore">Explore More</a>
+        </div>
+    </section>
+
+    <section class="sec3" id="explore">
+        <div class="cont1">
+            <img src="white-and-green-sail-boat-photography-1076240.jpg" alt="" id="boat" style="width: 260px;height: 271px;">
+            <div class=text-box>
+                <h1>Go island Hopping</h1>
+                <P>Travel the islands by boat at your leisure while taking in the sights and sounds that the region has offer.</P>
+                <a href="http://">Learn More</a>
+            </div>
+        </div>
+        <div class="cont2">
+            <img src="silhouette-of-man-and-woman-kissing-1024975.jpg" alt="" id="couple" style="width: 260px;height: 271px;">
+            <div class=text-box>
+                <h1>Reconnect with Loved Ones</h1>
+                <P>The beaches of tortuga offers the finest views and sunsets for you and your loved ones to embace.</P>
+                <a href="http://">Learn More</a>
+            </div>
+        </div>
+        <div class="cont3">
+            <img src="plate-of-thin-sliced-meat-1213271.jpg" alt="" id="food" style="width: 260px;height: 271px;">
+            <div class=text-box>
+                <h1>Taste Local Eats</h1>
+                <P>Tortuga is well know for it's local food. Come try all the homemade food that you eat. Even the smallest budguts can thrive here.</P>
+                <a href="http://">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="sec4" id="Contact">
+        <h1>Check Out The Local Hotels</h1>
+        <a href="http://">Check Prices</a>
+    </section>
+
+    <footer>
+        <div class="b1">
+            <h1>Tortuga</h1>
+        </div>
+        <div class="b2">
+            <p>Contact US
+                <br> T: (800)-375-9565
+                <br> A: Puerto Princesa North Rd, Bgy. San Manuel, Puerto Princesa City, 5300 Palawan, Philippines</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 500)
+        })
+    </script>
+    <script src="nav.js"></script>
+</body>
+
+</html>
